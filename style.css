@@ -1,0 +1,99 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+}
+.top-banner{
+    background-image: url(food-network-main/images/shapes/pic00.jpg);
+}
+.title-color{
+    color: orange;
+}
+.font-color{
+    color: rgb(134, 126, 126);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.half-width{
+    width: 100%;
+    font-size: 30px;
+    padding: 2% 2%;
+    margin-left: 2%;
+}
+.half-width img{
+    width: 90%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(199, 134, 13),rgb(245, 59, 27));
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+.middle-banner{
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.recipies-text{
+    text-align: center;
+    font-weight: 700;
+}
+div img{
+    width: 80%;
+  margin-left: 10%;
+}
+h1{
+    font-size: 50px;
+}
+.text-align{
+    text-align: center;
+}
+div p{
+    color: rgb(68, 75, 82);
+}
+.input-align{
+    text-align: justify;
+    background-image: linear-gradient(rgb(240, 226, 224),orange);
+}
+
+  .contact-form {
+    width: 65%;
+    float: left;
+  }
+  .contact-addres {
+    width: 25%;
+    float: right;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 15px 25px;
+    border: 1px solid #9c9c9c;
+  }
+  .input-name {
+    position: relative;
+    margin: 0 10px;
+  }
+ .main-title{
+     font-size: 50px;
+ }
+ .follower-container{
+     display: flex;
+     background-image: url(food-network-main/images/shapes/pic4.jpg);
+ }
+ .follower-area{
+     width: 100%;
+     margin-left: 5%;
+     text-align: center;
+ }
+ .footer-color{
+     background-color: navy;
+     margin: 10px 10px;
+ }
