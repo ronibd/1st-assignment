@@ -17,7 +17,6 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 10px;
 }
 .half-width{
     width: 100%;
@@ -45,6 +44,11 @@ body{
     text-align: center;
     font-weight: 700;
 }
+.recipies-item{
+    box-shadow: 3px 3px 20px gray;
+    border-radius: 20px;
+    padding: 2%;
+}
 div img{
     width: 80%;
   margin-left: 10%;
@@ -69,7 +73,9 @@ div p{
   }
   .contact-addres {
     width: 25%;
+    font-size: 25px;
     float: right;
+    margin: 2% ;
   }
   input,
   textarea {
@@ -90,10 +96,34 @@ div p{
  }
  .follower-area{
      width: 100%;
+     font-size: 25px;
      margin-left: 5%;
      text-align: center;
  }
- .footer-color{
-     background-color: navy;
-     margin: 10px 10px;
- }
+span{
+    color: orangered ;
+}
+.site-bio{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,salmon);
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 20px;
+    padding: 5%;
+    box-shadow: 10px 10px 20px;
+}
+.anchor-align{
+    text-align: center;
+    padding: 5%;
+    background-image: url(food-network-main/images/shapes/Frame\ 56.jpg);
+}
+.contact-height{
+    height: 390px;
+}
+footer{
+    color: silver;
+    background-color: #000308ee;
+    text-align: center;
+    height: 200px;
+}
